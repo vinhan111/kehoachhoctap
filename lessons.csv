@@ -1,104 +1,104 @@
 index,name,level,lesson_type,required_elo,lesson_url
-1,"Bài học 1","Found A","Chiến thuật",100,"https://chess-lesson-1"
-2,"Bài học 2","Found A","Chiến lược",100,"https://chess-lesson-2"
-3,"The Rook",Found A,Chiến lược,100,"https://chess-lesson-2"
-4,"The Bishop",Found A,Chiến lược,100,"https://chess-lesson-2"
+1,"Lịch Sử Cờ Vua","Found A","Chiến lược",100,"https://chess-lesson-1"
+2,"Cách 1 Ván Cờ Bắt Đầu","Found A","Chiến lược",100,"https://chess-lesson-1"
+3,"The Rook","Found A","Chiến lược",100,"https://chess-lesson-2"
+4,"The Bishop","Found A","Chiến lược",100,"https://chess-lesson-2"
 5,"The Queen","Found A","Chiến lược",100,"https://chess-lesson-2"
 6,"The King","Found A","Chiến lược",100,"https://chess-lesson-2"
 7,"The Knight","Found A","Chiến lược",100,"https://chess-lesson-2"
 8,"Ăn Quân","Found A","Chiến lược",100,"https://chess-lesson-2"
-9,"Bảo Vệ Quân","Found A","Chiến lược",100
-10,"Nước Chiếu - Thoát Chiếu","Found A","Chiến lược",100
-11,"Chiếu Hết Cờ","Found A","Chiến lược",100
-12,"Nhập Thành","Found A","Chiến lược",100
-13,"Bắt Tốt Qua Đường","Found A","Chiến lược",100
-14,"Hòa Pat","Found A","Chiến lược",300
-15,"3 Nguyên Tắc Vàng","Found A","Chiến lược",600
-16,"Nguyên Tắc An Toàn Vua","Found A","Chiến lược",200
-17,"Phân Biệt Cánh Vua Và Cánh Hậu","Found A","Chiến lược",600
-18,"Luôn Giữ Các Quân Được Bảo Vệ Lẫn Nhau","Found A","Chiến lược",400
-19,"Các Quân Cờ Ở Trung Tâm","Found A","Chiến lược",600
-20,"Cách Bắt Đầu Một Ván Cờ","Found A","Chiến lược",600
-21,"Chiếm Trung Tâm","Found A","Chiến lược",600
-22,"Không Đưa Hậu Ra Ngoài Quá Sớm","Found A","Chiến lược",600
-23,"Thế Cờ Phát Triển Quân Hoàn Hảo","Found A","Chiến lược",600
-24,"Các Bước Hoàn Thành Phát Triển Quân","Found A","Chiến lược",600
-25,"Quân Tốt F","Found A","Chiến lược",600
-26,"Tiểu Đội Xe","Found A","Cờ Tàn",200
-27,"Nụ Hôn Tử Thần","Found A","Cờ Tàn",600
-28,"Scholar Mate - 4 Nước Hết Cờ","Found A","Cờ Tàn",600
-29,"Backrank Mate","Found A","Cờ Tàn",600
-30,"Bắt Đôi","Found A","Chiến thuật",600
-31,"Ghim","Found A","Chiến thuật",600
-32,"Xiên","Found A","Chiến thuật",600
-33,"Mở Đường","Found A","Chiến thuật",600
-34,"Good Moves & Bad Moves","Found A","Chiến thuật",600
-35,"Trao Đổi Quân","Found A","Chiến thuật",600
-36,"Phong Cấp Tốt","Found A","Chiến lược",600
-37,"Vua Tích Cực","Found A","Chiến lược",600
-38,"Hậu Xe Vs Vua","Found A","Cờ Tàn",600
-39,"2 Xe Vs Vua","Found A","Cờ Tàn",600
-40,"Cờ Tàn Tốt (Cơ Bản)","Found A","Cờ Tàn",600
-41,"Phillidor","Found A","Extra",600
-42,"Vua Cờ Paul Morphy Opera Games","Found A","Extra",600
-43,"Thời Kỳ Cờ Vua Lãng Mạn","Found A","Extra",600
-44,"Biến Thể Sáng Tạo: Horde","Found A","Extra",600
-45,"Tương Quan Lực Lượng","Found B","Chiến lược",850
-46,"Điểm Mạnh Điểm Yếu Giữa Các Quân","Found B","Chiến lược",850
-47,"Tính Toán","Found B","Chiến lược",850
-48,"Khai Cuộc Mở & Nửa Mở","Found B","Chiến lược",850
-49,"Bẫy Khai Cuộc Legal","Found B","Chiến lược",850
-50,"Khai Cuộc Ý: Giouco Pianisimo","Found B","Chiến lược",850
-51,"Cozio Attack","Found B","Chiến lược",850
-52,"Boudounais Variant","Found B","Chiến lược",850
-53,"Philidor Variant","Found B","Chiến lược",850
-54,"Xử Lý Ưu Thế Lực Lượng","Found B","Chiến lược",850
-55,"Phát Triển Quân","Found B","Chiến lược",850
-56,"Tấn Công Vua Sơ Hở","Found B","Chiến lược",850
-57,"Tấn Công Cánh Vua","Found B","Chiến lược",850
-58,"Tấn Công Cánh Hậu","Found B","Chiến lược",850
-59,"Tiểu Đội Xe","Found B","Motif Chiếu Hêt",850
-60,"Nụ Hôn Tử Thần","Found B","Motif Chiếu Hêt",850
-61,"Scholar Mate - 4 Nước Hết Cờ","Found B","Motif Chiếu Hêt",850
-62,"Backrank Mate","Found B","Motif Chiếu Hêt",850
-63,"Gia Tăng Quân Tấn Công & Bảo Vệ","Found B","Chiến thuật",850
-64,"Tấn Công F2 & F7","Found B","Chiến thuật",850
-65,"Pháo Công Hậu Tượng & Hậu Xe","Found B","Chiến thuật",850
-66,"Tiêu Diệt Quân Bảo Vệ","Found B","Chiến thuật",850
-67,"Lưỡng Chiếu","Found B","Chiến thuật",1000
-68,"Đánh Lạc Hướng","Found B","Chiến thuật",1000
-69,"Vua Hậu Vs Vua","Found B","Cờ Tàn",1000
-70,"Vua Xe Vs Vua","Found B","Cờ Tàn",1000
-71,"Cờ Tàn Tốt","Found B","Cờ Tàn",1000
-72,"Tốt Thông, Đột Phá Tốt","Found B","Cờ Tàn",1000
-73,"Legal","Found B","Extra",1000
-74,"Steiniz","Found B","Extra",1000
-75,"Biến Thể Sáng Tạo: Crazy House","Found B","Extra",1000
-76,"Giữ Lực Lượng","Found C","Chiến lược",1200
-77,"Lập Kế Hoạch Tấn Công","Found C","Chiến lược",1200
-78,"Tính Toán Nhiều Biến","Found C","Chiến lược",1200
-79,"Phân Tích Ván Cờ (Cơ Bản)","Found C","Chiến lược",1200
-80,"Vị Trí Mạnh & Yếu Của Xe","Found C","Chiến lược",1200
-81,"Mã Và Ô Tiền Đồn","Found C","Chiến lược",1200
-82,"Vị Trí Mạnh & Yếu Của Tượng","Found C","Chiến lược",1200
-83,"Nhập Thành Trái Chiều","Found C","Chiến lược",1200
-84,"Ván Cờ Pawnstorm","Found C","Chiến lược",1200
-85,"Khai Cuộc Mở","Found C","Chiến lược",1200
-86,"Khai Cuộc Kin","Found C","Chiến lược",1200
-87,"Bẫy Khai Cuộc E4","Found C","Chiến lược",1200
-88,"Tiểu Đội Xe","Found C","Motif Chiếu Hêt",1200
-89,"Nụ Hôn Tử Thần","Found C","Motif Chiếu Hêt",1200
-90,"Scholar Mate - 4 Nước Hết Cờ","Found C","Motif Chiếu Hêt",1200
-91,"Backrank Mate","Found C","Motif Chiếu Hêt",1200
-92,"Chiếu Hết Cờ Trong 2 - 3 Nước","Found C","Chiến thuật",1200
-93,"Đòn Quá Tải","Found C","Chiến thuật",1200
-94,"Đòn Tia X","Found C","Chiến thuật",1200
-95,"Đòn Giải Phóng Ô","Found C","Chiến thuật",1200
-96,"Đòn Chặn Đường","Found C","Chiến thuật",1200
-97,"Món Quà Hi Lạp","Found C","Chiến thuật",1200
-98,"Vua Tốt Vs Vua","Found C","Cờ Tàn",1400
-99,"Tốt Mạnh Tốt Yếu","Found C","Cờ Tàn",1400
-100,"Cờ Tàn Tốt","Found C","Cờ Tàn",1400
-101,"Ván Cờ Deep Blue","Found C","Extra",1400
-102,"Thời Đại Cờ Vua","Found C","Extra",1400
-103,"Quá Mạnh Không Có Ai Dạy Được","Master","Chiến lược",3000
+9,"Bảo Vệ Quân","Found A","Chiến lược",100,"https://chess-lesson-2"
+10,"Nước Chiếu - Thoát Chiếu","Found A","Chiến lược",100,"https://chess-lesson-2"
+11,"Chiếu Hết Cờ","Found A","Chiến lược",100,"https://chess-lesson-2"
+12,"Nhập Thành","Found A","Chiến lược",100,"https://chess-lesson-2"
+13,"Bắt Tốt Qua Đường","Found A","Chiến lược",100,"https://chess-lesson-2"
+14,"Hòa Pat","Found A","Chiến lược",300,"https://chess-lesson-2"
+15,"3 Nguyên Tắc Vàng","Found A","Chiến lược",600,"https://chess-lesson-2"
+16,"Nguyên Tắc An Toàn Vua","Found A","Chiến lược",200,"https://chess-lesson-2"
+17,"Phân Biệt Cánh Vua Và Cánh Hậu","Found A","Chiến lược",600,"https://chess-lesson-2"
+18,"Luôn Giữ Các Quân Được Bảo Vệ Lẫn Nhau","Found A","Chiến lược",400,"https://chess-lesson-2"
+19,"Các Quân Cờ Ở Trung Tâm","Found A","Chiến lược",600,"https://chess-lesson-2"
+20,"Cách Bắt Đầu Một Ván Cờ","Found A","Chiến lược",600,"https://chess-lesson-2"
+21,"Chiếm Trung Tâm","Found A","Chiến lược",600,"https://chess-lesson-2"
+22,"Không Đưa Hậu Ra Ngoài Quá Sớm","Found A","Chiến lược",600,"https://chess-lesson-2"
+23,"Thế Cờ Phát Triển Quân Hoàn Hảo","Found A","Chiến lược",600,"https://chess-lesson-2"
+24,"Các Bước Hoàn Thành Phát Triển Quân","Found A","Chiến lược",600,"https://chess-lesson-2"
+25,"Quân Tốt F","Found A","Chiến lược",600,"https://chess-lesson-2"
+26,"Tiểu Đội Xe","Found A","Cờ Tàn",200,"https://chess-lesson-2"
+27,"Nụ Hôn Tử Thần","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+28,"Scholar Mate - 4 Nước Hết Cờ","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+29,"Backrank Mate","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+30,"Bắt Đôi","Found A","Chiến thuật",600,"https://chess-lesson-2"
+31,"Ghim","Found A","Chiến thuật",600,"https://chess-lesson-2"
+32,"Xiên","Found A","Chiến thuật",600,"https://chess-lesson-2"
+33,"Mở Đường","Found A","Chiến thuật",600,"https://chess-lesson-2"
+34,"Good Moves & Bad Moves","Found A","Chiến thuật",600,"https://chess-lesson-2"
+35,"Trao Đổi Quân","Found A","Chiến thuật",600,"https://chess-lesson-2"
+36,"Phong Cấp Tốt","Found A","Chiến lược",600,"https://chess-lesson-2"
+37,"Vua Tích Cực","Found A","Chiến lược",600,"https://chess-lesson-2"
+38,"Hậu Xe Vs Vua","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+39,"2 Xe Vs Vua","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+40,"Cờ Tàn Tốt (Cơ Bản)","Found A","Cờ Tàn",600,"https://chess-lesson-2"
+41,"Phillidor","Found A","Extra",600,"https://chess-lesson-2"
+42,"Vua Cờ Paul Morphy Opera Games","Found A","Extra",600,"https://chess-lesson-2"
+43,"Thời Kỳ Cờ Vua Lãng Mạn","Found A","Extra",600,"https://chess-lesson-2"
+44,"Biến Thể Sáng Tạo: Horde","Found A","Extra",600,"https://chess-lesson-2"
+45,"Tương Quan Lực Lượng","Found B","Chiến lược",850,"https://chess-lesson-2"
+46,"Điểm Mạnh Điểm Yếu Giữa Các Quân","Found B","Chiến lược",850,"https://chess-lesson-2"
+47,"Tính Toán","Found B","Chiến lược",850,"https://chess-lesson-2"
+48,"Khai Cuộc Mở & Nửa Mở","Found B","Chiến lược",850,"https://chess-lesson-2"
+49,"Bẫy Khai Cuộc Legal","Found B","Chiến lược",850,"https://chess-lesson-2"
+50,"Khai Cuộc Ý: Giouco Pianisimo","Found B","Chiến lược",850,"https://chess-lesson-2"
+51,"Cozio Attack","Found B","Chiến lược",850,"https://chess-lesson-2"
+52,"Boudounais Variant","Found B","Chiến lược",850,"https://chess-lesson-2"
+53,"Philidor Variant","Found B","Chiến lược",850,"https://chess-lesson-2"
+54,"Xử Lý Ưu Thế Lực Lượng","Found B","Chiến lược",850,"https://chess-lesson-2"
+55,"Phát Triển Quân","Found B","Chiến lược",850,"https://chess-lesson-2"
+56,"Tấn Công Vua Sơ Hở","Found B","Chiến lược",850,"https://chess-lesson-2"
+57,"Tấn Công Cánh Vua","Found B","Chiến lược",850,"https://chess-lesson-2"
+58,"Tấn Công Cánh Hậu","Found B","Chiến lược",850,"https://chess-lesson-2"
+59,"Tiểu Đội Xe","Found B","Motif Chiếu Hêt",850,"https://chess-lesson-2"
+60,"Nụ Hôn Tử Thần","Found B","Motif Chiếu Hêt",850,"https://chess-lesson-2"
+61,"Scholar Mate - 4 Nước Hết Cờ","Found B","Motif Chiếu Hêt",850,"https://chess-lesson-2"
+62,"Backrank Mate","Found B","Motif Chiếu Hêt",850,"https://chess-lesson-2"
+63,"Gia Tăng Quân Tấn Công & Bảo Vệ","Found B","Chiến thuật",850,"https://chess-lesson-2"
+64,"Tấn Công F2 & F7","Found B","Chiến thuật",850,"https://chess-lesson-2"
+65,"Pháo Công Hậu Tượng & Hậu Xe","Found B","Chiến thuật",850,"https://chess-lesson-2"
+66,"Tiêu Diệt Quân Bảo Vệ","Found B","Chiến thuật",850,"https://chess-lesson-2"
+67,"Lưỡng Chiếu","Found B","Chiến thuật",1000,"https://chess-lesson-2"
+68,"Đánh Lạc Hướng","Found B","Chiến thuật",1000,"https://chess-lesson-2"
+69,"Vua Hậu Vs Vua","Found B","Cờ Tàn",1000,"https://chess-lesson-2"
+70,"Vua Xe Vs Vua","Found B","Cờ Tàn",1000,"https://chess-lesson-2"
+71,"Cờ Tàn Tốt","Found B","Cờ Tàn",1000,"https://chess-lesson-2"
+72,"Tốt Thông, Đột Phá Tốt","Found B","Cờ Tàn",1000,"https://chess-lesson-2"
+73,"Legal","Found B","Extra",1000,"https://chess-lesson-2"
+74,"Steiniz","Found B","Extra",1000,"https://chess-lesson-2"
+75,"Biến Thể Sáng Tạo: Crazy House","Found B","Extra",1000,"https://chess-lesson-2"
+76,"Giữ Lực Lượng","Found C","Chiến lược",1200,"https://chess-lesson-2"
+77,"Lập Kế Hoạch Tấn Công","Found C","Chiến lược",1200,"https://chess-lesson-2"
+78,"Tính Toán Nhiều Biến","Found C","Chiến lược",1200,"https://chess-lesson-2"
+79,"Phân Tích Ván Cờ (Cơ Bản)","Found C","Chiến lược",1200,"https://chess-lesson-2"
+80,"Vị Trí Mạnh & Yếu Của Xe","Found C","Chiến lược",1200,"https://chess-lesson-2"
+81,"Mã Và Ô Tiền Đồn","Found C","Chiến lược",1200,"https://chess-lesson-2"
+82,"Vị Trí Mạnh & Yếu Của Tượng","Found C","Chiến lược",1200,"https://chess-lesson-2"
+83,"Nhập Thành Trái Chiều","Found C","Chiến lược",1200,"https://chess-lesson-2"
+84,"Ván Cờ Pawnstorm","Found C","Chiến lược",1200,"https://chess-lesson-2"
+85,"Khai Cuộc Mở","Found C","Chiến lược",1200,"https://chess-lesson-2"
+86,"Khai Cuộc Kin","Found C","Chiến lược",1200,"https://chess-lesson-2"
+87,"Bẫy Khai Cuộc E4","Found C","Chiến lược",1200,"https://chess-lesson-2"
+88,"Tiểu Đội Xe","Found C","Motif Chiếu Hêt",1200,"https://chess-lesson-2"
+89,"Nụ Hôn Tử Thần","Found C","Motif Chiếu Hêt",1200,"https://chess-lesson-2"
+90,"Scholar Mate - 4 Nước Hết Cờ","Found C","Motif Chiếu Hêt",1200,"https://chess-lesson-2"
+91,"Backrank Mate","Found C","Motif Chiếu Hêt",1200,"https://chess-lesson-2"
+92,"Chiếu Hết Cờ Trong 2 - 3 Nước","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+93,"Đòn Quá Tải","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+94,"Đòn Tia X","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+95,"Đòn Giải Phóng Ô","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+96,"Đòn Chặn Đường","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+97,"Món Quà Hi Lạp","Found C","Chiến thuật",1200,"https://chess-lesson-2"
+98,"Vua Tốt Vs Vua","Found C","Cờ Tàn",1400,"https://chess-lesson-2"
+99,"Tốt Mạnh Tốt Yếu","Found C","Cờ Tàn",1400,"https://chess-lesson-2"
+100,"Cờ Tàn Tốt","Found C","Cờ Tàn",1400,"https://chess-lesson-2"
+101,"Ván Cờ Deep Blue","Found C","Extra",1400,"https://chess-lesson-2"
+102,"Thời Đại Cờ Vua","Found C","Extra",1400,"https://chess-lesson-2"
+103,"Quá Mạnh Không Có Ai Dạy Được","Master","Chiến lược",3000,"https://chess-lesson-2"
