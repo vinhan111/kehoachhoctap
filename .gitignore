@@ -50,3 +50,10 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover 
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Cursor
+.cursorrules    
