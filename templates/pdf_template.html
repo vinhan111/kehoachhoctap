@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .student-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .lesson-list {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .lesson-item {
+            margin: 5px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Kế Hoạch Học Tập Cờ Vua</h1>
+        <p>Ngày tạo: {{ date }}</p>
+    </div>
+
+    <div class="student-info">
+        <h2>Thông tin học viên</h2>
+        <p><strong>Họ tên:</strong> {{ student.name }}</p>
+        <p><strong>Điểm ELO:</strong> {{ student.elo }}</p>
+        <p><strong>Trình độ:</strong> {{ student.knowledge_level }}</p>
+    </div>
+
+    <div class="content">
+        {% for category, lessons in lesson_plan.items() %}
+        <div class="category">
+            <h3 class="category-title">{{ category|title }}</h3>
+            {% if lessons %}
+            <ul class="lesson-list">
+                {% for lesson in lessons %}
+                <li class="lesson-item">
+                    {{ lesson.name }}
+                    <br>
+                    <small>Link: {{ lesson.lesson_url }}</small>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>Không có bài học nào</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="footer">
+        <p>© {{ date.split('/')[2] }} - Hệ thống tạo kế hoạch học tập cờ vua</p>
+    </div>
+</body>
+</html> 

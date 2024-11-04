@@ -1,0 +1,53 @@
+@media print {
+    /* Ẩn các phần không cần thiết khi in */
+    form, 
+    .btn,
+    nav,
+    .no-print {
+        display: none !important;
+    }
+
+    /* Style cho trang in */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #000;
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* Header */
+    .print-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Thông tin học viên */
+    .student-info {
+        margin: 20px 0;
+        padding: 10px;
+        border: 1px solid #000;
+    }
+
+    /* Danh sách bài học */
+    .lesson-category {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px solid #000;
+        margin-bottom: 15px;
+    }
+
+    .card-header {
+        background-color: #f0f0f0 !important;
+        color: #000 !important;
+        border-bottom: 1px solid #000;
+    }
+} 

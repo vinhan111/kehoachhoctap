@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tạo Kế Hoạch Học Tập Cờ Vua</title>
+    <title>Kế Hoạch Học Tập Cờ Vua</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/print.css') }}" rel="stylesheet" media="print">
     <style>
         .lesson-category {
             margin-bottom: 20px;
@@ -13,19 +14,62 @@
             max-height: 300px;
             overflow-y: auto;
         }
+        .btn-primary {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-left: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .chess-icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .lesson-link {
+            color: #0056b3;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .lesson-link:hover {
+            text-decoration: underline;
+        }
+
+        @media screen {
+            .print-header {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container py-5">
-        <h1 class="text-center mb-4">Tạo Kế Hoạch Học Tập Cờ Vua</h1>
+        <!-- Header cho bản in -->
+        <div class="print-header">
+            <h1>Kế Hoạch Học Tập Cờ Vua</h1>
+            <p>Ngày tạo: {{ datetime.now().strftime('%d/%m/%Y') }}</p>
+        </div>
+
+        <!-- Form tạo kế hoạch (sẽ ẩn khi in) -->
+        <h1 class="text-center mb-4 no-print">Tạo Kế Hoạch Học Tập Cờ Vua</h1>
         
         {% if error %}
-        <div class="alert alert-danger">
+        <div class="alert alert-danger no-print">
             {{ error }}
         </div>
         {% endif %}
 
-        <div class="row">
+        <div class="row no-print">
             <div class="col-md-6 mx-auto">
                 <form method="POST" action="{{ url_for('generate_plan') }}" class="card p-4 shadow-sm">
                     <div class="mb-3">
@@ -56,18 +100,37 @@
         {% if lesson_plan %}
         <div class="mt-5">
             <h2 class="text-center mb-4">Kế hoạch học tập cho {{ student.name }}</h2>
+            
+            <!-- Thông tin học viên -->
+            <div class="student-info mb-4">
+                <h3>Thông tin học viên</h3>
+                <p><strong>Họ tên:</strong> {{ student.name }}</p>
+                <p><strong>Điểm ELO:</strong> {{ student.elo }}</p>
+                <p><strong>Trình độ:</strong> {{ student.knowledge_level }}</p>
+            </div>
+
+            <!-- Nút in (chỉ hiển thị trên màn hình) -->
+            <div class="text-center mb-4 no-print">
+                <button onclick="window.print()" class="btn btn-success">
+                    Xuất kế hoạch (PDF)
+                </button>
+            </div>
+
+            <!-- Danh sách bài học -->
             <div class="row">
                 {% for category, lessons in lesson_plan.items() %}
                 <div class="col-md-4 lesson-category">
                     <div class="card h-100">
-                        <div class="card-header bg-primary text-white">
+                        <div class="card-header">
                             {{ category|title }}
                         </div>
-                        <div class="card-body lesson-list">
+                        <div class="card-body">
                             {% if lessons %}
                             <ul class="list-group list-group-flush">
                                 {% for lesson in lessons %}
-                                <li class="list-group-item">{{ lesson }}</li>
+                                <li class="list-group-item">
+                                    {{ lesson.name }}
+                                </li>
                                 {% endfor %}
                             </ul>
                             {% else %}
